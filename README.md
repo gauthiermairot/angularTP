@@ -1,3 +1,3 @@
-# angular-epsi-groupe-2-rxtoeh-a67pui
+# Stackblitz Angular
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/github/gauthiermairot/angularTP)
