@@ -26,5 +26,7 @@ export class HomeComponent implements OnInit {
     return AuthService.user;
   }
 
-
+  get isAdminSignedIn(): boolean {
+    return AuthService.isAdminSignedIn;
+  }
 }

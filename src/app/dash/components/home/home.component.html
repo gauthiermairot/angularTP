@@ -2,8 +2,11 @@
   Page d'accueil du Dashboard
 </h1>
 
-<p>
+<p *ngIf="isSignedIn">
   Bienvenue {{user.first_name}} {{user.last_name}}
+</p>
+<p *ngIf="isAdminSignedIn">
+  Bienvenue {{user.first_name}} {{user.last_name}}, vous avez le rôle administrateur
 </p>
 
 <p>
